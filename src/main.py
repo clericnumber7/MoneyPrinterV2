@@ -197,7 +197,7 @@ def main():
 
     Returns:
         None"""
-                            subprocess.run(command)
+                            subprocess.run(command, shell=True)
 
                         if user_input == 1:
                             # Upload Once
@@ -315,7 +315,7 @@ def main():
 
     Returns:
         None"""
-                            subprocess.run(command)
+                            subprocess.run(command, shell=True)
 
                         if user_input == 1:
                             # Post Once a day

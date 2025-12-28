@@ -2,6 +2,8 @@ import re
 import g4f
 import sys
 import time
+import json
+import os
 
 from cache import *
 from config import *
@@ -10,7 +12,6 @@ from constants import *
 from typing import List
 from datetime import datetime
 from termcolor import colored
-from selenium_firefox import *
 from selenium import webdriver
 from selenium.common import exceptions
 from selenium.webdriver.common import keys

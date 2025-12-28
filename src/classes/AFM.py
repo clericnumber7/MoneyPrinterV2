@@ -4,7 +4,6 @@ from status import *
 from config import *
 from constants import *
 from .Twitter import Twitter
-from selenium_firefox import *
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.service import Service
